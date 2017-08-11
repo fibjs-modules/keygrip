@@ -1,7 +1,25 @@
-Keygrip
+@fibjs/keygrip
 =======
 
-[![Build Status](https://secure.travis-ci.org/crypto-utils/keygrip.png)](http://travis-ci.org/crypto-utils/keygrip)
+[![NPM version][npm-image]][npm-url]
+[![build status][travis-image]][travis-url]
+[![appveyor build status][appveyor-image]][appveyor-url]
+[![David deps][david-image]][david-url]
+[![Known Vulnerabilities][snyk-image]][snyk-url]
+[![npm download][download-image]][download-url]
+
+[npm-image]: https://img.shields.io/npm/v/@fibjs/keygrip.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@fibjs/keygrip
+[travis-image]: https://img.shields.io/travis/fibjs-modules/keygrip.svg?style=flat-square
+[travis-url]: https://travis-ci.org/fibjs-modules/keygrip
+[appveyor-image]: https://ci.appveyor.com/api/projects/status/9nv7t7tjl4l7i25b?svg=true
+[appveyor-url]: https://ci.appveyor.com/project/ngot/keygrip
+[david-image]: https://img.shields.io/david/fibjs-modules/keygrip.svg?style=flat-square
+[david-url]: https://david-dm.org/fibjs-modules/keygrip
+[snyk-image]: https://snyk.io/test/npm/@fibjs/keygrip/badge.svg?style=flat-square
+[snyk-url]: https://snyk.io/test/npm/@fibjs/keygrip
+[download-image]: https://img.shields.io/npm/dm/@fibjs/keygrip.svg?style=flat-square
+[download-url]: https://npmjs.org/package/@fibjs/keygrip
 
 Keygrip is a [fibjs](http://fibjs.org/) module for signing and verifying data (such as cookies or URLs) through a rotating credential system, in which new server keys can be added and old ones removed regularly, without invalidating client credentials.
 

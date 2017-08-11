@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Key signing and verification for rotated credentials",
   "scripts": {
-    "test": "fibjs test.js"
+    "ci": "fibjs test.js"
   },
   "repository": "fibjs-modules/keygrip",
   "ci": {
