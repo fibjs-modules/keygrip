@@ -1,5 +1,5 @@
-var crypto = require("crypto")
-  
+var hash = require("hash")
+
 function Keygrip(keys, algorithm, encoding) {
   if (!algorithm) algorithm = "sha1";
   if (!encoding) encoding = "base64";
@@ -10,9 +10,10 @@ function Keygrip(keys, algorithm, encoding) {
   }
 
   function sign(data, key) {
-    return crypto
-      .createHmac(algorithm, key)
-      .update(data).digest(encoding)
+    return hash
+      .hmac(hash[algorithm.toUpperCase()], key)
+      .digest(data)
+      .toString(encoding)
       .replace(/\/|\+|=/g, function(x) {
         return ({ "/": "_", "+": "-", "=": "" })[x]
       })

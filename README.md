@@ -3,11 +3,11 @@ Keygrip
 
 [![Build Status](https://secure.travis-ci.org/crypto-utils/keygrip.png)](http://travis-ci.org/crypto-utils/keygrip)
 
-Keygrip is a [node.js](http://nodejs.org/) module for signing and verifying data (such as cookies or URLs) through a rotating credential system, in which new server keys can be added and old ones removed regularly, without invalidating client credentials.
+Keygrip is a [fibjs](http://fibjs.org/) module for signing and verifying data (such as cookies or URLs) through a rotating credential system, in which new server keys can be added and old ones removed regularly, without invalidating client credentials.
 
 ## Install
 
-    $ npm install keygrip
+    $ npm install @fibjs/keygrip
 
 ## API
 

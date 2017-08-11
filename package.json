@@ -1,9 +1,15 @@
 {
-  "name": "keygrip",
+  "name": "@fibjs/keygrip",
   "version": "1.0.1",
   "description": "Key signing and verification for rotated credentials",
   "scripts": {
-    "test": "node test.js"
+    "test": "fibjs test.js"
   },
-  "repository": "expressjs/keygrip"
+  "repository": "fibjs-modules/keygrip",
+  "ci": {
+    "version": "0.4.0, 0.10.0"
+  },
+  "devDependencies": {
+    "@fibjs/ci": "^2.0.0"
+  }
 }
