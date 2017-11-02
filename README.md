@@ -4,6 +4,7 @@
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
 [![appveyor build status][appveyor-image]][appveyor-url]
+[![Test coverage][codecov-image]][codecov-url]
 [![David deps][david-image]][david-url]
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 [![npm download][download-image]][download-url]
@@ -14,6 +15,8 @@
 [travis-url]: https://travis-ci.org/fibjs-modules/keygrip
 [appveyor-image]: https://ci.appveyor.com/api/projects/status/9nv7t7tjl4l7i25b?svg=true
 [appveyor-url]: https://ci.appveyor.com/project/ngot/keygrip
+[codecov-image]: https://img.shields.io/codecov/c/github/fibjs-modules/keygrip.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/fibjs-modules/keygrip?branch=master
 [david-image]: https://img.shields.io/david/fibjs-modules/keygrip.svg?style=flat-square
 [david-url]: https://david-dm.org/fibjs-modules/keygrip
 [snyk-image]: https://snyk.io/test/npm/@fibjs/keygrip/badge.svg?style=flat-square
